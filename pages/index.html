@@ -12,14 +12,14 @@
   <meta property="og:title" content="Shreveport - Bossier -- Teen Entrepreneur Challenge">
   <meta property="og:type" content="website">
   <meta property="og:description" content="The 20 / 20 Challenge is a competition and training camp for entrepreneurs who are 20 years old and younger in the Shreveport - Bossier area.">
-  <meta property="og:image" content="http://www.the2020challenge.com/images/2020-challenge-logo.png">
+  <meta property="og:image" content="http://www.the2020challenge.com/images/2020-challenge-logo-for-facebook.png">
   <meta property="og:url" content="http://www.the2020challenge.com/">
-  
-  
+
+
   <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
   <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,900italic' rel='stylesheet' type='text/css'>
   <style type="text/css">
-    *{
+       *{
       padding:0;
       margin:0;
       outline:none;
@@ -28,26 +28,39 @@
     header{
       padding:16px;
       background-color:#f36e37;
+      border-bottom:solid 1px rgba(255, 255, 255, 0.25);
     }
     header h1{
-      padding-top:4px;
+      float:left;
+      padding-left:42px;
       text-align:center;
       color:#FFF;
       text-transform:uppercase;
-      font-size:44px;
+      font-size:42px;
       font-weight:800;
       font-style:italic;
-      line-height:56px;
+      line-height:126px;
     }
     header img{
-      width:180px;
-      height:180px;
+      float:left;
+      width:126px;
+      height:126px;
       display:block;
       margin:auto;
+    }
+    header #header-inner{
+      width:632px;
+      margin:auto;
+    }
+    header:after{
+      display:block;
+      content:'';
+      clear:both;
     }
     #content section{
       padding:100px 32px;
       background-color:#FFF;
+      border-bottom:solid 1px rgba(0, 0, 0, 0.25);
     }
     #content section .section-icon.no-border{
       height:144px;
@@ -65,6 +78,10 @@
       padding-left:192px;
       max-width:100%;
     }
+    #content section{
+      padding-top:64px;
+      padding-bottom:64px;
+    }
     #content section .section-inner:after,
     #content section:after{
       display:block;
@@ -72,23 +89,69 @@
       content:'';
     }
     #content #what-section{
-      background-image:url('http://www.cohab.org/images/programs/elev8high.jpg');
-      background-size:cover;
+      background-color:#f36e37;
       color:#FFF;
       padding:0;
-      box-shadow:0 6px 8px 6px rgba(0,0,0,0.4);
-      -webkit-box-shadow:0 6px 8px 6px rgba(0,0,0,0.4);
+      font-size:24px;
+      line-height:36px;
+      font-weight:700;
+      font-style:italic;
+      text-align:center;
     }
     #content #what-section .section-inner{
-      padding:100px 32px;
-      background-color:rgba(0, 0, 0, 0.75);
+      padding:64px 32px;
     }
-    #content #how-it-works-section{
+    #content #what-section .section-inner .section-content, #content #how-section .section-inner .section-content{
+      padding-left:0;
+    }
+    #content #how-section .section-inner .section-content p{
+      text-align:center;
+      font-size:18px;
+      line-height:30px;
+    }
+    #content #contents-section #offerings .offering{
+      float:left;
+      width:33.3%;
+      min-width:320px;
+      padding:24px 24px;
+      box-sizing:border-box;
+    }
+    #content #contents-section #offerings .offering img{
+      display:block;
+      height:128px;
+      margin:0 auto 12px auto;
+    }
+    #content #contents-section #offerings .offering h3{
+      text-align:center;
+      font-size:28px;
+      font-weight:600;
+      line-height:40px;
+    }
+    #content #contents-section #offerings .offering h3 span{
+      font-weight:300;
+    }
+    #content #contents-section #offerings{
+      width:320px;
+      margin:auto;
+    }
+    @media(min-width:960px){
+      #content #contents-section #offerings{
+      width:100%;
+      min-width:960px;
+       }
+    }
+    #content #contents-section #offerings .offering p{
+      text-align:center;
+      margin-top:8px;
+      font-size:18px;
+      line-height:30px;
+    }
+    #content #apply-section{
       background-image:url('/images/subtle_stripes.png');
       color:#333;
       padding:0;
     }
-    #content #how-it-works-section .fa{
+    #content #apply-section .fa{
       width:128px;
       height:128px;
       font-size:96px;
@@ -99,23 +162,80 @@
       background-color:#f36e37;
       color:#FFF;
     }
-    #content #how-it-works-section .section-inner{
-      padding:100px 32px;
+    #content #apply-section .section-inner{
+      padding:48px 32px;
     }
-    #content #how-it-works-section h2{
+    #content #apply-section .section-inner .section-content{
+      padding-left:0;
+    }
+    #content #apply-section h2{
       color:#f36e37;
       text-shadow:0 0 1px #bcbcbc;
+    }
+    #content #apply-section iframe{
+      margin-top:24px;
+      width:100%;
+      height:864px;
     }
     #content section h2{
       margin-bottom:10px;
       font-size:40px;
       line-height:52px;
       font-weight:400;
+      text-align:center;
     }
-    #content section p{
+    #content section a{
       font-size:24px;
       font-weight:300;
       line-height:36px;
+      color:#333;
+      text-decoration:none;
+    }
+    #content section a:hover{
+      color:#f36e37;
+    }
+    #content #partners-section p{
+      font-size:16px;
+      line-height:28px;
+      color:#333;
+      text-align:center;
+    }
+    #content #partners-section .section-inner .section-content{
+      padding-left:0;
+    }
+    #content #partners-section .partner{
+      float:left;
+      width:50%;
+      box-sizing:border-box;
+      -webkit-box-sizing:border-box;
+      -moz-box-sizing:border-box;
+      margin-top:16px;
+      text-align:center;
+    }
+    #content #partners-section #partner-cctc{
+      padding-right:80px;
+    }
+    #content #partners-section .partner .partner-logo{
+      height:100px;
+      line-height:100px;
+    }
+    #content #partners-section .partner .partner-logo a{
+      display:block;
+      text-align:center;
+    }
+    #content #partners-section .partner  .partner-logo a img{
+      display:inline-block;
+      max-width:100%;
+      max-height:100px;
+      vertical-align:middle;
+      margin:auto;
+    }
+    #content #partners-section .partner h3{
+      margin-top:16px;
+      font-size:18px;
+      line-height:30px;
+      color:#333;
+      font-weight:500;
     }
     #content #follow-us-section{
       background-color:#3b579d;
@@ -156,7 +276,7 @@
       float:left;
     }
     footer #color-bar .color-stripe:nth-child(odd){
-      background-color:#01bbf4;     
+      background-color:#01bbf4;
     }
     footer #color-bar .color-stripe:nth-child(even){
       background-color:#F36e37;
@@ -206,26 +326,86 @@
   </style>
 </head>
 <body>
-  <header>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700italic,900italic' rel='stylesheet' type='text/css'>
+<header>
+  <div id="header-inner">
     <img src="/images/2020-challenge-logo.png"/>
-    <h1>The 20 / 20 Challenge</h1>
+      <h1>The 20 / 20 Challenge</h1>
+    </div>
   </header>
   <div id="content">
     <section id="what-section">
       <div class="section-inner">
-        <img class="section-icon no-border" src="/images/2020-challenge-logo.png"/>
         <div class="section-content">
-          <h2>What Is This Thing</h2>
-          <p>The 20 / 20 Challenge is a competition and training camp for entrepreneurs who are 20 years old and younger in the Shreveport - Bossier area.</p>
+          <p>The 20 / 20 Challenge is a competition and training camp for those 20  and younger in Shreveport - Bossier, who have the next great business idea.</p>
         </div>
       </div>
     </section>
-    <section id="how-it-works-section">
+        <section id="how-section">
       <div class="section-inner">
-        <i class="fa fa-lightbulb-o section-icon"></i>
         <div class="section-content">
-          <h2>How Does It Work</h2>
-          <p>Soon, we'll be announcing more details and opening up an online application page where you can apply to be part of The 20 / 20 Challenge.  Until then you can follow us on Facebook for all of the latest updates.</p>
+          <h2>How does it work?</h2>
+          <p>You can apply by clicking the link further down this page.  Applications are accepted until June 1st, 2014.  If our panel of judges picks you to participate, then we will notify you in the first week of June.</p>
+        </div>
+      </div>
+    </section>
+    <section id="contents-section">
+      <div class="section-inner">
+                  <h2>The Challenge</h2>
+        <div id="offerings" class="clear-after">
+          <div class="offering">
+            <img src="/entrepreneurial_training-icon.svg"/>
+            <h3><span>Entrepreneurial</span><br/>Training</h3>
+            <p>
+              Everyone who is selected to participant in The 20 / 20 Challenge program will take part in a set of 4 Summer workshops that will teach them the basics of entrepreneurship and running a business.
+            </p>
+          </div>
+          <div class="offering">
+            <img src="/images/mentorship-icon.svg"/>
+            <h3><span>Long-term</span><br/>Mentorship</h3>
+            <p>
+              Each person that goes through The 20 / 20 Challenge program will be matched with a long-term mentor to help guide their future business endeavors over a 4 - 12 month period.
+            </p>
+          </div>
+          <div class="offering">
+            <img src="/images/cash_prizes-icon.svg"/>
+            <h3><span>Cash</span><br/>Prizes</h3>
+            <p>
+              The top 3 entrepreneurs that go through The 20 / 20 Challenge program will be selected by our panel of judges to receive modest cash prizes to kickstart their business!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="apply-section">
+      <div class="section-inner">
+        <div class="section-content">
+          <h2>Apply Today</h2>
+          <iframe src="https://docs.google.com/forms/d/1RJBQJaxr2GCwr69-3BSf3nX73BgEdJpqMiL07XH3g3I/viewform" title="Apply Here">Click here to apply</iframe>
+        </div>
+      </div>
+    </section>
+    <section id="partners-section">
+      <div class="section-inner">
+        <div class="section-content">
+          <h2>Our Awesome Partners</h2>
+          <p>We're doing something new in Shreveport - Bossier and we have some awesome people backing us up.</p>
+          <br/>
+          <div id="partners" class="clear-after">
+          <div class="partner" id="partner-cctc">
+            <div class="partner-logo"><a href="http://www.caddocareer.com/" title="Caddo Career & Technology Center" target="_blank">
+              <img src="/images/career_center-logo.png"/>
+            </a>
+            </div>
+            <h3>Caddo Career & Technology Center</h3>
+          </div>
+          <div class="partner" id="partner-digifest">
+            <div class="partner-logo"><a href="http://www.digifestsouth.com/" title="Digifest South">
+              <img src="/images/digifest_south-logo.jpg"/></a></div>
+            <h3>Digifest South</h3>
+          </div>
+          </div>
         </div>
       </div>
     </section>
@@ -233,7 +413,7 @@
       <div class="section-inner">
         <img class="section-icon no-border" id="fb-logo" src="/images/facebook-logo.png"/>
         <div class="section-content">
-          <a id="fb-link" href="https://www.facebook.com/pages/20-20-Challenge/664688266911103" title="The 20 / 20 Challenge on Facebook">Click here to follow us on Facebook for updates</a>
+          <a id="fb-link" href="https://www.facebook.com/the2020challenge" title="The 20 / 20 Challenge on Facebook">Click here to follow us on Facebook for updates</a>
         </div>
       </div>
     </section>
@@ -249,8 +429,6 @@
       <p id="copyright">&copy; 2014 The 20 / 20 Challenge</p>
       <div>
         <a href="http://about.me/justindmartin" target="_blank" title="About Justin Martin">Website Design by Justin Martin</a>
-        <span class="bullet">&bull;</span>
-        <a href="http://www.molliecorbett.com/" target="_blank" title="Mollie Corbett Photography">Photography by Mollie Corbett Photography</a>
       </div>
     </div>
   </footer>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="256px" height="256px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.1 (7597) - http://www.bohemiancoding.com/sketch -->
+    <title>20 / 20 Challenge Logo</title>
+    <description>Created with Sketch.</description>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="20-/-20-Challenge-Logo" sketch:type="MSArtboardGroup">
+            <g id="Logo" sketch:type="MSLayerGroup" transform="translate(129.000000, 127.500000) rotate(55.000000) translate(-129.000000, -127.500000) translate(26.000000, 24.000000)">
+                <ellipse id="Oval-1" stroke="#FFFFFF" stroke-width="26.2420382" sketch:type="MSShapeGroup" cx="103" cy="103.756831" rx="103" ry="102.844937"></ellipse>
+                <text id="20" sketch:type="MSTextLayer" transform="translate(51.381710, 96.545597) rotate(-55.000000) translate(-51.381710, -96.545597) " font-family="Roboto" font-size="30.8571429" font-weight="420" fill="#FFFFFF">
+                    <tspan x="31.9020566" y="107.045597">20</tspan>
+                </text>
+                <text id="20" sketch:type="MSTextLayer" transform="translate(153.693250, 108.478109) rotate(-55.000000) translate(-153.693250, -108.478109) " font-family="Roboto" font-size="30.8571429" font-weight="420" fill="#FFFFFF">
+                    <tspan x="134.213596" y="118.978109">20</tspan>
+                </text>
+                <rect id="Rectangle-1" fill="#FFFFFF" sketch:type="MSShapeGroup" x="76.1019108" y="97.8612614" width="17.0573248" height="106.120253"></rect>
+                <rect id="Rectangle-2" fill="#FFFFFF" sketch:type="MSShapeGroup" x="107.592357" y="3.53214744" width="17.0573248" height="110.050633"></rect>
+                <rect id="Rectangle-3" fill="#FFFFFF" sketch:type="MSShapeGroup" x="76.1019108" y="97.8612614" width="48.5477707" height="17.0316456"></rect>
+                <rect id="Rectangle-4" fill="#F36E37" sketch:type="MSShapeGroup" x="90.8719966" y="0.431383218" width="17.0573248" height="27.5126582"></rect>
+                <rect id="Rectangle-5" fill="#F36E37" sketch:type="MSShapeGroup" x="124.783317" y="3.34121397" width="17.0573248" height="34.0632911"></rect>
+                <rect id="Rectangle-6" fill="#F36E37" sketch:type="MSShapeGroup" x="59.5306322" y="165.052863" width="16.680531" height="39.2114537"></rect>
+                <rect id="Rectangle-7" fill="#F36E37" sketch:type="MSShapeGroup" x="93.5300547" y="179.627926" width="15.7452229" height="27.3568282"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -6,21 +6,22 @@
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
         <g id="20-/-20-Challenge-Logo" sketch:type="MSArtboardGroup">
-            <g id="Logo" sketch:type="MSLayerGroup" transform="translate(129.000000, 127.500000) rotate(55.000000) translate(-129.000000, -127.500000) translate(26.000000, 24.000000)">
-                <ellipse id="Oval-1" stroke="#FFFFFF" stroke-width="26.2420382" sketch:type="MSShapeGroup" cx="103" cy="103.756831" rx="103" ry="102.844937"></ellipse>
-                <text id="20" sketch:type="MSTextLayer" transform="translate(51.381710, 96.545597) rotate(-55.000000) translate(-51.381710, -96.545597) " font-family="Roboto" font-size="30.8571429" font-weight="420" fill="#FFFFFF">
-                    <tspan x="31.9020566" y="107.045597">20</tspan>
+            <g id="Logo" sketch:type="MSLayerGroup" transform="translate(128.180848, 128.073576) rotate(55.000000) translate(-128.180848, -128.073576) translate(-49.819152, -50.426424)">
+                <rect id="Rectangle-8" fill="#F36E37" sketch:type="MSShapeGroup" transform="translate(177.836000, 178.605940) rotate(35.000000) translate(-177.836000, -178.605940) " x="49.8359996" y="50.6059403" width="256" height="256"></rect>
+                <ellipse id="Oval-1" stroke="#FFFFFF" stroke-width="26.2420382" sketch:type="MSShapeGroup" cx="178" cy="177.756831" rx="103" ry="102.844937"></ellipse>
+                <text id="20" sketch:type="MSTextLayer" transform="translate(126.381710, 170.545597) rotate(-55.000000) translate(-126.381710, -170.545597) " font-family="Roboto" font-size="30.8571429" font-weight="420" fill="#FFFFFF">
+                    <tspan x="106.902057" y="181.045597">20</tspan>
                 </text>
-                <text id="20" sketch:type="MSTextLayer" transform="translate(153.693250, 108.478109) rotate(-55.000000) translate(-153.693250, -108.478109) " font-family="Roboto" font-size="30.8571429" font-weight="420" fill="#FFFFFF">
-                    <tspan x="134.213596" y="118.978109">20</tspan>
+                <text id="20" sketch:type="MSTextLayer" transform="translate(228.693250, 182.478109) rotate(-55.000000) translate(-228.693250, -182.478109) " font-family="Roboto" font-size="30.8571429" font-weight="420" fill="#FFFFFF">
+                    <tspan x="209.213596" y="192.978109">20</tspan>
                 </text>
-                <rect id="Rectangle-1" fill="#FFFFFF" sketch:type="MSShapeGroup" x="76.1019108" y="97.8612614" width="17.0573248" height="106.120253"></rect>
-                <rect id="Rectangle-2" fill="#FFFFFF" sketch:type="MSShapeGroup" x="107.592357" y="3.53214744" width="17.0573248" height="110.050633"></rect>
-                <rect id="Rectangle-3" fill="#FFFFFF" sketch:type="MSShapeGroup" x="76.1019108" y="97.8612614" width="48.5477707" height="17.0316456"></rect>
-                <rect id="Rectangle-4" fill="#F36E37" sketch:type="MSShapeGroup" x="90.8719966" y="0.431383218" width="17.0573248" height="27.5126582"></rect>
-                <rect id="Rectangle-5" fill="#F36E37" sketch:type="MSShapeGroup" x="124.783317" y="3.34121397" width="17.0573248" height="34.0632911"></rect>
-                <rect id="Rectangle-6" fill="#F36E37" sketch:type="MSShapeGroup" x="59.5306322" y="165.052863" width="16.680531" height="39.2114537"></rect>
-                <rect id="Rectangle-7" fill="#F36E37" sketch:type="MSShapeGroup" x="93.5300547" y="179.627926" width="15.7452229" height="27.3568282"></rect>
+                <rect id="Rectangle-1" fill="#FFFFFF" sketch:type="MSShapeGroup" x="151.101911" y="171.861261" width="17.0573248" height="106.120253"></rect>
+                <rect id="Rectangle-2" fill="#FFFFFF" sketch:type="MSShapeGroup" x="182.592357" y="77.5321474" width="17.0573248" height="110.050633"></rect>
+                <rect id="Rectangle-3" fill="#FFFFFF" sketch:type="MSShapeGroup" x="151.101911" y="171.861261" width="48.5477707" height="17.0316456"></rect>
+                <rect id="Rectangle-4" fill="#F36E37" sketch:type="MSShapeGroup" x="165.871997" y="74.4313832" width="17.0573248" height="27.5126582"></rect>
+                <rect id="Rectangle-5" fill="#F36E37" sketch:type="MSShapeGroup" x="199.783317" y="77.341214" width="17.0573248" height="34.0632911"></rect>
+                <rect id="Rectangle-6" fill="#F36E37" sketch:type="MSShapeGroup" x="134.530632" y="239.052863" width="16.680531" height="39.2114537"></rect>
+                <rect id="Rectangle-7" fill="#F36E37" sketch:type="MSShapeGroup" x="168.530055" y="253.627926" width="15.7452229" height="27.3568282"></rect>
             </g>
         </g>
     </g>
